@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style>
+      body {
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        margin: none;
+        padding: none;
+      }
+
+      body.shutdown {
+        background-color: #422;
+      }
+
+      body.shutdown #player {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="messages">
+
+    </ul>
+    <video id="player"></video>
+    <script src="bundle.js"></script>
+  </body>
+</html>

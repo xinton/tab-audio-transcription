@@ -1,0 +1,6 @@
+{
+    "name": "tabCapture",
+    "scripts": {
+        "start": "node server.js"
+    }
+}
