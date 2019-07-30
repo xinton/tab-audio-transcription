@@ -88,7 +88,6 @@ window.addEventListener('load', function() {
     this.play();
   });
   player.setAttribute('controls', '1');
-  // player.src = URL.createObjectURL(window.currentStream);
   player.srcObject = window.currentStream;
 
   // Add onended event listeners. This detects when tab capture was shut down by
