@@ -2,5 +2,8 @@
     "name": "tabCapture",
     "scripts": {
         "start": "node server.js"
+    },
+    "dependencies": {
+        "watson-speech": "^0.36.6"
     }
 }

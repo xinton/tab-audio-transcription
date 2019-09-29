@@ -2,7 +2,7 @@ var recognizeMicrophone  = require('watson-speech/speech-to-text/recognize-micro
 
 async function getToken() {
   try {
-      var res = await fetch('https://ectg51rx1i.execute-api.us-east-1.amazonaws.com/dev/api/speech-to-text/token');
+      var res = await fetch('https://yzqn78wndl.execute-api.us-east-1.amazonaws.com/dev/api/speech-to-text/token');
       var token = await res.text();
       return token;
   } catch (error) {        
